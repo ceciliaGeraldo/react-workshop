@@ -1,6 +1,7 @@
 var express = require('express');
+var bodyParser = require('body-parser')
 var app = express();
-
+app.use(bodyParser.json())
 app.use(express.urlencoded())
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -10,8 +11,11 @@ app.use((req, res, next) => {
   next();
 });
 app.post('/submit-form', function (req, res) {
-  const username = req.body.username
-  res.status(201).json({name: username});
+  const username = req.body.name;
+  const description = req.body.description;
+  const country = req.body.country;
+
+  res.status(200).json({name: username });
 });
 
 app.listen(8080, function () {

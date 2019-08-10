@@ -3,12 +3,13 @@ import React, { Component } from 'react';
 class UncontrolledComponent extends Component {
   constructor(props) {
     super(props);
-    //this.input = React.createRef();
+    this.input = React.createRef();
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleSubmit(event) {
-    // this.input.current.value
+  
+    console.info('Valor del input:', this.input.current.value);
     event.preventDefault();
   }
 
@@ -18,7 +19,7 @@ class UncontrolledComponent extends Component {
           <h1>Componente NO Controlado</h1>
           <label>
              email
-            <input type="text" />
+            <input type="text" ref={this.input} defaultValue={"asdf"} />
           </label>
           <input type="submit" value="Enviar"/>
         </form>
