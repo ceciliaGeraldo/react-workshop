@@ -9,17 +9,17 @@ class UncontrolledComponent extends Component {
 
   handleSubmit(event) {
   
-    console.info('Valor del input:', this.input.current.value);
+    console.info('Valor del input:', this.input.current.name);
     event.preventDefault();
   }
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} >
           <h1>Componente NO Controlado</h1>
           <label>
              email
-            <input type="text" ref={this.input} defaultValue={"asdf"} />
+            <input type="text" name="email" ref={this.input} defaultValue={""} className="inputEmail"  />
           </label>
           <input type="submit" value="Enviar"/>
         </form>
