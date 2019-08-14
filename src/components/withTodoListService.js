@@ -27,6 +27,11 @@ const withTodoListService = (WrappedComponent, listName) => {
         ...this.props,
       };
       return <WrappedComponent {...forwardProps}/>;
+      // return <WrappedComponent 
+      //   name={forwardProps.name}
+      //   handler={forwardProps.handler}
+      //   list={forwardProps.list}
+      // />;
     }
   }
 

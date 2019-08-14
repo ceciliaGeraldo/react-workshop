@@ -6,6 +6,7 @@ class TodayList extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      error: false,
       list: todoListService.getList('today')
     };
     this.onChangeHandler = this.onChangeHandler.bind(this);
@@ -15,11 +16,14 @@ class TodayList extends Component {
     e.preventDefault();
     todoListService.updateItem('today', id);
     setTimeout(() => {
-      this.setState({ list: todoListService.getList('today') });
+      this.setState({ error: true });
     }, 10);
   }
 
   render() {
+    if (this.state.error) {
+      throw new Error('Se daño la lista');
+    }
     return (
       <div>
         <h1>Today to-do list</h1>
@@ -30,3 +34,8 @@ class TodayList extends Component {
 }
 
 export default TodayList;
+
+// import TodoList from './TodoList';
+// import withTodoListService from './withTodoListService';
+// 
+// export default withTodoListService(TodoList, 'today');
