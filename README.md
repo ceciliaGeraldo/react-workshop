@@ -22,3 +22,7 @@
 - [shouldComponentUpdate y PureComponent](./doc/performance/SHOULDUPDATE.md)
 - [Inmutabilidad](./doc/performance/INMUTABLE.md)
 - [Listas y keys](./doc/performance/KEYS.md)
+## Aplicaciones avanzadas
+- [Fragmentos](./doc/advanced-apps/FRAGMENTS.md)
+- [Context](./doc/advanced-apps/CONTEXT.md)
+- [Hooks](./doc/advanced-apps/HOOKS.md)

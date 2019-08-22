@@ -1,15 +1,15 @@
 import React from 'react';
+import Item from './Item';
 
 const List = (props) => (
   <div className="list">
-    <ul className="list__content">
+    <div className="list__content">
       {props.list.map(item => (
-        <li key={item.id} className="list__item">
-          <input className="list__check" type="checkbox" checked={item.isDone} onChange={(e) => props.handler(e, item.id)}/>
-          <span className={`list__topic ${item.isDone && 'list__done'}`}>{item.topic}</span>
-        </li>
+        <div key={item.id} className="list__item">
+          <Item item={item} handler={props.handler} setMessage={props.setMessage}/>
+        </div>
       ))}
-    </ul>
+    </div>
   </div>
 );
 
