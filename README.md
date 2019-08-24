@@ -26,3 +26,4 @@
 - [Fragmentos](./doc/advanced-apps/FRAGMENTS.md)
 - [Context](./doc/advanced-apps/CONTEXT.md)
 - [Hooks](./doc/advanced-apps/HOOKS.md)
+- [Reducer](./doc/advanced-apps/REDUCER.md)
