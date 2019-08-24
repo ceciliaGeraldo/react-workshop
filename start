@@ -482,4 +482,53 @@ Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
 [./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
 [./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
 [./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
-[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+^C
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ hiy[K[K[Kgit status
+On branch animaciones
+Your branch is up to date with 'origin/animaciones'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   package-lock.json[m
+	[31mmodified:   package.json[m
+	[31mmodified:   src/App.js[m
+	[31mmodified:   src/App.scss[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mstart[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ git add .
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ git commit -m"[K ""p"r"i"m"e"r"a" "a"c"t"i"v"i"d"a"d" "s"á"b"a"d"o" "2"4"
+[animaciones cfc7a77] primera actividad sábado 24
+ 5 files changed, 588 insertions(+), 5 deletions(-)
+ create mode 100644 start
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ git push
+Username for 'https://github.com': ceciliaGeraldo
+Password for 'https://ceciliaGeraldo@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ceciliaGeraldo/react-workshop.git/'
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ git push
+Username for 'https://github.com': ceciliaGeraldo
+Password for 'https://ceciliaGeraldo@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 9.53 KiB | 4.77 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), comp
