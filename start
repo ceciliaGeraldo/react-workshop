@@ -1,0 +1,485 @@
+Script started on 2019-08-24 09:53:22-0400
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ npm start
+
+> react-workshop-project@1.0.0 start /home/cgeraldo/Documents/mercadoLibre/react-workshop
+> webpack-dev-server --mode development
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost:3000/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34mhttp://localhost:3000/dist/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m/home/cgeraldo/Documents/mercadoLibre/react-workshop/public/[39m[22m
+[31m✖[39m [90m｢wdm｣[39m: Hash: [1m6378d018742d78db10d0[39m[22m
+Version: webpack [1m4.39.1[39m[22m
+Time: [1m417[39m[22mms
+Built at: 08/24/2019 [1m9:53:46 AM[39m[22m
+    [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  391 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/ansi-html/index.js] [1m/home/cgeraldo/node_modules/ansi-html/index.js[39m[22m 4.16 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/log-apply-result.js] [1m(webpack)/hot/log-apply-result.js[39m[22m 1.27 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/log.js] [1m(webpack)/hot/log.js[39m[22m 1.34 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 19 hidden modules
+
+[1m[31mERROR in Entry module not found: Error: Can't resolve 'eslint-loader' in '/home/cgeraldo/Documents/mercadoLibre/react-workshop'[39m[22m
+
+[1m[31mERROR in multi (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js
+Module not found: Error: Can't resolve 'eslint-loader' in '/home/cgeraldo/Documents/mercadoLibre/react-workshop'
+ @ multi (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js main[2][39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+^C
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ npm start
+
+> react-workshop-project@1.0.0 start /home/cgeraldo/Documents/mercadoLibre/react-workshop
+> webpack-dev-server --mode development
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost:3000/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34mhttp://localhost:3000/dist/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m/home/cgeraldo/Documents/mercadoLibre/react-workshop/public/[39m[22m
+[31m✖[39m [90m｢wdm｣[39m: Hash: [1m6378d018742d78db10d0[39m[22m
+Version: webpack [1m4.39.1[39m[22m
+Time: [1m432[39m[22mms
+Built at: 08/24/2019 [1m9:57:20 AM[39m[22m
+    [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  391 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/ansi-html/index.js] [1m/home/cgeraldo/node_modules/ansi-html/index.js[39m[22m 4.16 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/log-apply-result.js] [1m(webpack)/hot/log-apply-result.js[39m[22m 1.27 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/log.js] [1m(webpack)/hot/log.js[39m[22m 1.34 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 19 hidden modules
+
+[1m[31mERROR in Entry module not found: Error: Can't resolve 'eslint-loader' in '/home/cgeraldo/Documents/mercadoLibre/react-workshop'[39m[22m
+
+[1m[31mERROR in multi (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js
+Module not found: Error: Can't resolve 'eslint-loader' in '/home/cgeraldo/Documents/mercadoLibre/react-workshop'
+ @ multi (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js main[2][39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+^C
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ npm start
+
+> react-workshop-project@1.0.0 start /home/cgeraldo/Documents/mercadoLibre/react-workshop
+> webpack-dev-server --mode development
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost:3000/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34mhttp://localhost:3000/dist/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m/home/cgeraldo/Documents/mercadoLibre/react-workshop/public/[39m[22m
+[31m✖[39m [90m｢wdm｣[39m: Hash: [1m6378d018742d78db10d0[39m[22m
+Version: webpack [1m4.39.1[39m[22m
+Time: [1m433[39m[22mms
+Built at: 08/24/2019 [1m9:58:31 AM[39m[22m
+    [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  391 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/ansi-html/index.js] [1m/home/cgeraldo/node_modules/ansi-html/index.js[39m[22m 4.16 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/log-apply-result.js] [1m(webpack)/hot/log-apply-result.js[39m[22m 1.27 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/log.js] [1m(webpack)/hot/log.js[39m[22m 1.34 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[../../../node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 19 hidden modules
+
+[1m[31mERROR in Entry module not found: Error: Can't resolve 'eslint-loader' in '/home/cgeraldo/Documents/mercadoLibre/react-workshop'[39m[22m
+
+[1m[31mERROR in multi (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js
+Module not found: Error: Can't resolve 'eslint-loader' in '/home/cgeraldo/Documents/mercadoLibre/react-workshop'
+ @ multi (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js main[2][39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+^C
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ npm start[2Pruninstall react-addons-css-transition-group --save
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m dcfaecd162adce7e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m dcfaecd162adce7e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m dcfaecd162adce7e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m dcfaecd162adce7e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m dcfaecd162adce7e[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m react-addons-css-transition-group@15.6.2 checking[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m react-transition-group@1.2.1 checking installable[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m react-transition-group@1.2.1 checking installable[0m[K[[7m   [27m[90m...............[0m] \ loadDep:source-map: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m   [27m[90m...............[0m] \ loadDep:is-extendable: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m   [27m[90m...............[0m] \ loadDep:to-regex: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m     [27m[90m.............[0m] \ loadDep:brace-expansion: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable stat[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m warning@3.0.0 checking installable status[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:webpack-dev-server: [34;40mverb[0m [35mlock[0m using /home/cgeraldo/.npm/_locks/staging-d884cf01e8c[0m[K[[7m       [27m[90m...........[0m] - extract:webpack-dev-server: [34;40mverb[0m [35mlock[0m using /home/cgeraldo/.npm/_locks/staging-d884cf01e8c[0m[K[[7m       [27m[90m...........[0m] - extract:webpack-dev-server: [34;40mverb[0m [35mlock[0m using /home/cgeraldo/.npm/_locks/staging-d884cf01e8c[0m[K[[7m       [27m[90m...........[0m] / extract:webpack-dev-server: [34;40mverb[0m [35mlock[0m using /home/cgeraldo/.npm/_locks/staging-d884cf01e8c[0m[K[[7m       [27m[90m...........[0m] | extract:@xtuc/ieee754: [7msill[0m [35mextract[0m @xtuc/ieee754@1.2.0 extracted to /home/cgeraldo/Docume[0m[K[[7m       [27m[90m...........[0m] / extract:@webassemblyjs/ieee754: [7msill[0m [35mextract[0m @webassemblyjs/ieee754@1.8.5 extracted to /ho[0m[K[[7m       [27m[90m...........[0m] \ extract:@webassemblyjs/helper-wasm-bytecode: [7msill[0m [35mextract[0m @webassemblyjs/helper-wasm-bytec[0m[K[[7m       [27m[90m...........[0m] | extract:@webassemblyjs/helper-wasm-bytecode: [7msill[0m [35mextract[0m @webassemblyjs/helper-wasm-bytec[0m[K[[7m       [27m[90m...........[0m] - extract:write: [7msill[0m [35mextract[0m write@0.2.1 extracted to /home/cgeraldo/Documents/mercadoLibre[0m[K[[7m       [27m[90m...........[0m] \ extract:mississippi: [7msill[0m [35mextract[0m mississippi@3.0.0 extracted to /home/cgeraldo/Documents/[0m[K[[7m       [27m[90m...........[0m] \ extract:mississippi: [7msill[0m [35mextract[0m mississippi@3.0.0 extracted to /home/cgeraldo/Documents/[0m[K[[7m       [27m[90m...........[0m] - extract:file-entry-cache: [7msill[0m [35mextract[0m file-entry-cache@2.0.0 extracted to /home/cgeraldo/[0m[K[[7m       [27m[90m...........[0m] - extract:file-entry-cache: [7msill[0m [35mextract[0m file-entry-cache@2.0.0 extracted to /home/cgeraldo/[0m[K[[7m       [27m[90m...........[0m] - extract:os-locale: [7msill[0m [35mextract[0m os-locale@3.1.0 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m       [27m[90m...........[0m] - extract:os-locale: [7msill[0m [35mextract[0m os-locale@3.1.0 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m       [27m[90m...........[0m] \ extract:@babel/preset-react: [7msill[0m [35mextract[0m @babel/preset-react@7.0.0 extracted to /home/cge[0m[K[[7m       [27m[90m...........[0m] / extract:@babel/preset-react: [7msill[0m [35mextract[0m @babel/preset-react@7.0.0 extracted to /home/cge[0m[K[[7m       [27m[90m...........[0m] \ extract:pump: [7msill[0m [35mextract[0m react-transition-group@^1.2.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] \ extract:pump: [7msill[0m [35mextract[0m react-transition-group@^1.2.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] | extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] / extract:react-transition-group: [7msill[0m [35mtarball[0m trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjX[0m[K[[7m       [27m[90m...........[0m] \ extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] \ extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] \ extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] \ extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] / extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] / extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] / extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] / extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] / extract:node-libs-browser: [7msill[0m [35mextract[0m get-stream@4.1.0 extracted to /home/cgeraldo/Docum[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] - extract:eslint-config-airbnb: [7msill[0m [35mextract[0m terser-webpack-plugin@1.3.0 extracted to /home/[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] \ extract:terser-webpack-plugin: [7msill[0m [35mtarball[0m trying npmlog@4.1.2 by hash: sha1-CKfyqL9zRgR3[0m[K[[7m       [27m[90m...........[0m] / extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] / extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] / extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] / extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:@babel/cli: [7msill[0m [35mextract[0m @babel/cli@7.5.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m       [27m[90m...........[0m] | extract:babel-eslint: [7msill[0m [35mextract[0m del@4.1.1 extracted to /home/cgeraldo/Documents/mercado[0m[K[[7m       [27m[90m...........[0m] | extract:babel-eslint: [7msill[0m [35mextract[0m del@4.1.1 extracted to /home/cgeraldo/Documents/mercado[0m[K[[7m       [27m[90m...........[0m] | extract:babel-eslint: [7msill[0m [35mextract[0m del@4.1.1 extracted to /home/cgeraldo/Documents/mercado[0m[K[[7m       [27m[90m...........[0m] | extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] | extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] | extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] | extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] | extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] | extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] - extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] - extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] - extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] - extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] - extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] - extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m       [27m[90m...........[0m] \ extract:del: [7msill[0m [35mtarball[0m trying findup-sync@3.0.0 by hash: sha1-F7EI+e5RLft6XH88iyfqnhqcC[0m[K[[7m        [27m[90m..........[0m] / extract:cliui: [7msill[0m [35mextract[0m cliui@5.0.0 extracted to /home/cgeraldo/Documents/mercadoLibre[0m[K[[7m        [27m[90m..........[0m] - extract:optionator: [7msill[0m [35mextract[0m optionator@0.8.2 extracted to /home/cgeraldo/Documents/me[0m[K[[7m        [27m[90m..........[0m] / extract:string-width: [7msill[0m [35mextract[0m warning@3.0.0[0m[K[[7m        [27m[90m..........[0m] | extract:ansi-regex: [7msill[0m [35mextract[0m ansi-regex@3.0.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m        [27m[90m..........[0m] \ extract:warning: [7msill[0m [35mextract[0m warning@^3.0.0 extracted to /home/cgeraldo/Documents/mercado[0m[K[[7m        [27m[90m..........[0m] | extract:validate-npm-package-license: [7msill[0m [35mextract[0m validate-npm-package-license@3.0.4 extr[0m[K[[7m        [27m[90m..........[0m] | extract:http-signature: [7msill[0m [35mextract[0m http-signature@1.2.0 extracted to /home/cgeraldo/Docu[0m[K[[7m        [27m[90m..........[0m] - extract:stdout-stream: [7msill[0m [35mextract[0m stdout-stream@1.4.1 extracted to /home/cgeraldo/Docume[0m[K[[7m        [27m[90m..........[0m] \ extract:micromatch: [7msill[0m [35mextract[0m micromatch@3.1.10 extracted to /home/cgeraldo/Documents/m[0m[K[[7m        [27m[90m..........[0m] | extract:isobject: [7msill[0m [35mextract[0m isobject@2.1.0 extracted to /home/cgeraldo/Documents/mercad[0m[K[[7m        [27m[90m..........[0m] - extract:unicode-property-aliases-ecmascript: [7msill[0m [35mextract[0m unicode-property-aliases-ecmascr[0m[K[[7m        [27m[90m..........[0m] / extract:source-map-resolve: [7msill[0m [35mextract[0m source-map-resolve@0.5.2 extracted to /home/cgera[0m[K[[7m        [27m[90m..........[0m] | extract:@babel/plugin-transform-parameters: [7msill[0m [35mextract[0m @babel/plugin-transform-parameter[0m[K[[7m        [27m[90m..........[0m] - extract:send: [7msill[0m [35mextract[0m send@0.17.1 extracted to /home/cgeraldo/Documents/mercadoLibre/[0m[K[[7m        [27m[90m..........[0m] | extract:@babel/helper-split-export-declaration: [7msill[0m [35mextract[0m @babel/helper-split-export-de[0m[K[[7m         [27m[90m.........[0m] - extract:timers-browserify: [7msill[0m [35mextract[0m timers-browserify@2.0.10 extracted to /home/cgeral[0m[K[[7m         [27m[90m.........[0m] / extract:multicast-dns: [7msill[0m [35mextract[0m multicast-dns@6.2.3 extracted to /home/cgeraldo/Docume[0m[K[[7m         [27m[90m.........[0m] - extract:strip-eof: [7msill[0m [35mextract[0m strip-eof@1.0.0 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m         [27m[90m.........[0m] - extract:stream-shift: [7msill[0m [35mextract[0m http-errors@1.6.3 extracted to /home/cgeraldo/Documents[0m[K[[7m         [27m[90m.........[0m] / extract:ms: [7msill[0m [35mextract[0m ms@2.1.2 extracted to /home/cgeraldo/Documents/mercadoLibre/react[0m[K[[7m         [27m[90m.........[0m] / extract:define-property: [7msill[0m [35mextract[0m define-property@0.2.5 extracted to /home/cgeraldo/Do[0m[K[[7m         [27m[90m.........[0m] / extract:sprintf-js: [7msill[0m [35mextract[0m sprintf-js@1.0.3 extracted to /home/cgeraldo/Documents/me[0m[K[[7m         [27m[90m.........[0m] / extract:create-hmac: [7msill[0m [35mextract[0m create-hmac@1.1.7 extracted to /home/cgeraldo/Documents/[0m[K[[7m         [27m[90m.........[0m] / extract:browserify-sign: [7msill[0m [35mextract[0m browserify-sign@4.0.4 extracted to /home/cgeraldo/Do[0m[K[[7m         [27m[90m.........[0m] \ extract:require-main-filename: [7msill[0m [35mextract[0m require-main-filename@1.0.1 extracted to /home[0m[K[[7m         [27m[90m.........[0m] / extract:regex-not: [7msill[0m [35mextract[0m regex-not@1.0.2 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m         [27m[90m.........[0m] / extract:run-async: [7msill[0m [35mextract[0m run-async@2.3.0 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m         [27m[90m.........[0m] \ extract:eslint-import-resolver-node: [7msill[0m [35mextract[0m eslint-import-resolver-node@0.3.2 extrac[0m[K[[7m         [27m[90m.........[0m] | extract:normalize-path: [7msill[0m [35mextract[0m normalize-path@2.1.1 extracted to /home/cgeraldo/Docu[0m[K[[7m         [27m[90m.........[0m] - extract:@babel/plugin-transform-named-capturing-groups-regex: [7msill[0m [35mextract[0m @babel/plugin-t[0m[K[[7m         [27m[90m.........[0m] - extract:regenerate: [7msill[0m [35mextract[0m regenerate@1.4.0 extracted to /home/cgeraldo/Documents/me[0m[K[[7m          [27m[90m........[0m] / extract:process-nextick-args: [7msill[0m [35mextract[0m process-nextick-args@2.0.1 extracted to /home/c[0m[K[[7m          [27m[90m........[0m] | extract:pkg-dir: [7msill[0m [35mextract[0m pkg-dir@3.0.0 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m          [27m[90m........[0m] \ extract:path-key: [7msill[0m [35mextract[0m path-key@2.0.1 extracted to /home/cgeraldo/Documents/mercad[0m[K[[7m          [27m[90m........[0m] \ extract:load-json-file: [7msill[0m [35mextract[0m load-json-file@2.0.0 extracted to /home/cgeraldo/Docu[0m[K[[7m          [27m[90m........[0m] | extract:os-homedir: [7msill[0m [35mextract[0m os-homedir@1.0.2 extracted to /home/cgeraldo/Documents/me[0m[K[[7m          [27m[90m........[0m] \ extract:obuf: [7msill[0m [35mextract[0m obuf@1.1.2 extracted to /home/cgeraldo/Documents/mercadoLibre/r[0m[K[[7m          [27m[90m........[0m] - extract:strip-ansi: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.[0m[K[[7m          [27m[90m........[0m] | extract:punycode: [7msill[0m [35mextract[0m punycode@1.4.1 extracted to /home/cgeraldo/Documents/mercad[0m[K[[7m          [27m[90m........[0m] - extract:minimatch: [7msill[0m [35mextract[0m minimatch@3.0.4 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m          [27m[90m........[0m] | extract:map-obj: [7msill[0m [35mextract[0m map-obj@1.0.1 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m          [27m[90m........[0m] / extract:form-data: [7msill[0m [35mextract[0m form-data@2.3.3 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m          [27m[90m........[0m] \ extract:@babel/plugin-transform-block-scoping: [7msill[0m [35mextract[0m @babel/plugin-transform-block-[0m[K[[7m          [27m[90m........[0m] - extract:is-data-descriptor: [7msill[0m [35mextract[0m is-data-descriptor@1.0.0 extracted to /home/cgera[0m[K[[7m           [27m[90m.......[0m] \ extract:regexp-tree: [7msill[0m [35mextract[0m regexp-tree@0.1.11 extracted to /home/cgeraldo/Documents[0m[K[[7m           [27m[90m.......[0m] - extract:is-typedarray: [7msill[0m [35mextract[0m is-typedarray@1.0.0 extracted to /home/cgeraldo/Docume[0m[K[[7m           [27m[90m.......[0m] / extract:is-glob: [7msill[0m [35mextract[0m is-glob@3.1.0 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m           [27m[90m.......[0m] | extract:kind-of: [7msill[0m [35mextract[0m kind-of@3.2.2 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m           [27m[90m.......[0m] / extract:http-parser-js: [7msill[0m [35mextract[0m http-parser-js@0.4.10 extracted to /home/cgeraldo/Doc[0m[K[[7m           [27m[90m.......[0m] / extract:get-stdin: [7msill[0m [35mextract[0m get-stdin@4.0.1 extracted to /home/cgeraldo/Documents/merc[0m[K[[7m           [27m[90m.......[0m] - extract:figures: [7msill[0m [35mextract[0m figures@2.0.0 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m           [27m[90m.......[0m] \ extract:p-locate: [7msill[0m [35mextract[0m p-locate@2.0.0 extracted to /home/cgeraldo/Documents/mercad[0m[K[[7m           [27m[90m.......[0m] - extract:doctrine: [7msill[0m [35mextract[0m buffer@4.9.1 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m           [27m[90m.......[0m] / extract:cyclist: [7msill[0m [35mextract[0m cyclist@0.2.2 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] / extract:component-emitter: [7msill[0m [35mextract[0m component-emitter@1.3.0 extracted to /home/cgerald[0m[K[[7m            [27m[90m......[0m] \ extract:buffer-from: [7msill[0m [35mextract[0m buffer-from@1.1.1 extracted to /home/cgeraldo/Documents/[0m[K[[7m            [27m[90m......[0m] / extract:arr-diff: [7msill[0m [35mextract[0m arr-diff@4.0.0 extracted to /home/cgeraldo/Documents/mercad[0m[K[[7m            [27m[90m......[0m] | extract:ajv-keywords: [7msill[0m [35mextract[0m ajv-keywords@3.4.1 extracted to /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] \ extract:axobject-query: [7msill[0m [35mextract[0m axobject-query@2.0.2 extracted to /home/cgeraldo/Docu[0m[K[[7m            [27m[90m......[0m] - extract:regenerate-unicode-properties: [7msill[0m [35mextract[0m regenerate-unicode-properties@8.1.0 ex[0m[K[[7m            [27m[90m......[0m] - extract:regenerate-unicode-properties: [7msill[0m [35mextract[0m regenerate-unicode-properties@8.1.0 ex[0m[K[[7m            [27m[90m......[0m] - extract:regenerate-unicode-properties: [7msill[0m [35mextract[0m regenerate-unicode-properties@8.1.0 ex[0m[K[[7m            [27m[90m......[0m] - extract:regenerate-unicode-properties: [7msill[0m [35mextract[0m regenerate-unicode-properties@8.1.0 ex[0m[K[[7m            [27m[90m......[0m] - extract:regenerate-unicode-properties: [7msill[0m [35mextract[0m regenerate-unicode-properties@8.1.0 ex[0m[K[[7m            [27m[90m......[0m] \ extract:caniuse-lite: [7msill[0m [35mextract[0m caniuse-lite@1.0.30000981 extracted to /home/cgeraldo/D[0m[K[[7m            [27m[90m......[0m] / extract:lodash: [7msill[0m [35mextract[0m lodash@4.17.15 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] / extract:lodash: [7msill[0m [35mextract[0m lodash@4.17.15 extracted to /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] - extract:core-js-pure: [7msill[0m [35mextract[0m core-js-pure@3.1.4 extracted to /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] - extract:core-js-pure: [7msill[0m [35mextract[0m core-js-pure@3.1.4 extracted to /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] - extract:core-js-pure: [7msill[0m [35mextract[0m core-js-pure@3.1.4 extracted to /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] - extract:core-js-pure: [7msill[0m [35mextract[0m core-js-pure@3.1.4 extracted to /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] - extract:core-js-pure: [7msill[0m [35mextract[0m core-js-pure@3.1.4 extracted to /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] | finalize:@babel/plugin-syntax-object-rest-spread: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/m[0m[K[[7m            [27m[90m......[0m] - finalize:amdefine: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node[0m[K[[7m            [27m[90m......[0m] | finalize:caniuse-lite: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/[0m[K[[7m            [27m[90m......[0m] / finalize:escape-string-regexp: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-w[0m[K[[7m            [27m[90m......[0m] \ finalize:abbrev: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_m[0m[K[[7m            [27m[90m......[0m] | finalize:util-deprecate: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-worksho[0m[K[[7m            [27m[90m......[0m] / finalize:inherits: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node[0m[K[[7m            [27m[90m......[0m] - finalize:define-property: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-worksh[0m[K[[7m            [27m[90m......[0m] / finalize:jsbn: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_mod[0m[K[[7m            [27m[90m......[0m] | finalize:@webassemblyjs/wast-parser: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/r[0m[K[[7m            [27m[90m......[0m] - finalize:fsevents: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node[0m[K[[7m            [27m[90m......[0m] \ finalize:p-limit: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_[0m[K[[7m            [27m[90m......[0m] \ finalize:portfinder: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/no[0m[K[[7m            [27m[90m......[0m] / finalize:react-is: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node[0m[K[[7m            [27m[90m......[0m] / finalize:require-main-filename: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-[0m[K[[7m            [27m[90m......[0m] \ finalize:which-module: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/[0m[K[[7m            [27m[90m......[0m] - finalize:setimmediate: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/[0m[K[[7m            [27m[90m......[0m] / finalize:define-property: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-worksh[0m[K[[7m            [27m[90m......[0m] - finalize:icss-utils: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/no[0m[K[[7m            [27m[90m......[0m] / finalize:@babel/helper-call-delegate: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/[0m[K[[7m            [27m[90m......[0m] / finalize:finalhandler: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/[0m[K[[7m            [27m[90m......[0m] \ finalize:use: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modu[0m[K[[7m            [27m[90m......[0m] / finalize:http-signature: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-worksho[0m[K[[7m            [27m[90m......[0m] - finalize:global-prefix: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop[0m[K[[7m            [27m[90m......[0m] | finalize:stream-http: [7msill[0m [35mfinalize[0m /home/cgeraldo/Documents/mercadoLibre/react-workshop/n[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:webpack-dev-server: [32;40mtiming[0m [35maction:finalize[0m Completed in 1272ms[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:webpack-dev-server: [32;40mtiming[0m [35maction:finalize[0m Completed in 1272ms[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:debug: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLibr[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:debug: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLibr[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:debug: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLibr[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:react-transition-group: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Docu[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:webpack: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:webpack: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:webpack: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:node-gyp: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:source-map: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercad[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:yargs-parser: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/merc[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:request: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:yargs: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLibr[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:parallel-transform: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Document[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:union-value: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/merca[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:@babel/plugin-transform-dotall-regex: [7msill[0m [35mrefresh-package-json[0m /home[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:kind-of: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:@babel/helper-module-transforms: [7msill[0m [35mrefresh-package-json[0m /home/cger[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:icss-utils: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercad[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:load-json-file: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/me[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:cli-cursor: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercad[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:shebang-regex: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mer[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:invert-kv: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercado[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:ecc-jsbn: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:qs: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLibre/r[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:@babel/plugin-transform-regenerator: [7msill[0m [35mrefresh-package-json[0m /home/[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:path-exists: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/merca[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:performance-now: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/m[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:load-json-file: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/me[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:mimic-fn: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:nice-try: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:elliptic: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoL[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:@babel/plugin-transform-block-scoping: [7msill[0m [35mrefresh-package-json[0m /hom[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:is-accessor-descriptor: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Docu[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:isarray: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:is-plain-obj: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/merc[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:ini: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLibre/[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:html-entities: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mer[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:figgy-pudding: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mer[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:eslint-scope: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/merc[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:destroy: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/mercadoLi[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:currently-unhandled: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documen[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:connect-history-api-fallback: [7msill[0m [35mrefresh-package-json[0m /home/cgerald[0m[K[[7m            [27m[90m......[0m] | refresh-package-json:balanced-match: [7msill[0m [35mrefresh-package-json[0m /home/cgeraldo/Documents/me[0m[K[[7m            [27m[90m......[0m] - preinstall:webpack-dev-server: [32;40mtiming[0m [35maction:refresh-package-json[0m Completed in 2375ms[0m[K[[7m            [27m[90m......[0m] - preinstall:shebang-regex: [32minfo[0m [35mlifecycle[0m ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1[0m[K[[7m            [27m[90m......[0m] - preinstall:inherits: [32minfo[0m [35mlifecycle[0m eslint-scope@3.7.1~preinstall: eslint-scope@3.7.1[0m[K[[7m            [27m[90m......[0m] \ build:@babel/helper-plugin-utils: [7msill[0m [35mlinkStuff[0m @babel/helper-plugin-utils@7.0.0 has /hom[0m[K[[7m            [27m[90m......[0m] - build:copy-descriptor: [7msill[0m [35mlinkStuff[0m copy-descriptor@0.1.1 has /home/cgeraldo/Documents/m[0m[K[[7m            [27m[90m......[0m] / build:minimist: [7msill[0m [35mlinkStuff[0m minimist@1.2.0 has /home/cgeraldo/Documents/mercadoLibre/re[0m[K[[7m            [27m[90m......[0m] \ build:prr: [7msill[0m [35mlinkStuff[0m prr@1.0.1 has /home/cgeraldo/Documents/mercadoLibre/react-worksh[0m[K[[7m            [27m[90m......[0m] \ build:strip-eof: [7msill[0m [35mlinkStuff[0m strip-eof@1.0.0 has /home/cgeraldo/Documents/mercadoLibre/[0m[K[[7m            [27m[90m......[0m] \ build:supports-color: [7msill[0m [35mlinkStuff[0m supports-color@6.1.0 has /home/cgeraldo/Documents/mer[0m[K[[7m            [27m[90m......[0m] - build:webpack-cli: [34;40mverb[0m [35mlinkBins[0m [ { 'webpack-cli': './bin/cli.js' },[0m[K[[7m            [27m[90m......[0m] - install:@babel/plugin-transform-arrow-functions: [32minfo[0m [35mlifecycle[0m @babel/plugin-transform-ar[0m[K[[7m            [27m[90m......[0m] - install:is-typedarray: [32minfo[0m [35mlifecycle[0m is-typedarray@1.0.0~install: is-typedarray@1.0.0[0m[K[[7m            [27m[90m......[0m] | install:ret: [32minfo[0m [35mlifecycle[0m ret@0.1.15~install: ret@0.1.15[0m[K[[7m            [27m[90m......[0m] | install:request: [32minfo[0m [35mlifecycle[0m request@2.88.0~install: request@2.88.0[0m[K[K[?25h
+> node-sass@4.12.0 install /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/node-sass
+> node scripts/install.js
+
+Cached binary found at /home/cgeraldo/.npm/node-sass/4.12.0/linux-x64-64_binding.node
+[?25l[[7m            [27m[90m......[0m] / postinstall:webpack-dev-server: [7msill[0m [35mdoSerial[0m postinstall 8236[0m[K[K[?25h
+> core-js-pure@3.1.4 postinstall /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/core-js-pure
+> node scripts/postinstall || echo "ignore"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+[?25l[[7m            [27m[90m......[0m] | postinstall:is-data-descriptor: [32minfo[0m [35mlifecycle[0m is-data-descriptor@1.0.0~postinstall: is-da[0m[K[[7m            [27m[90m......[0m] - postinstall:require-directory: [32minfo[0m [35mlifecycle[0m require-directory@2.1.1~postinstall: require[0m[K[[7m            [27m[90m......[0m] | postinstall:braces: [32minfo[0m [35mlifecycle[0m braces@2.3.2~postinstall: braces@2.3.2[0m[K[K[?25h
+> node-sass@4.12.0 postinstall /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+[?25l[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m webpack-dev-server@3.7.2~postinstall: webpack-dev-server@3.7.2[0m[K[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m webpack-dev-server@3.7.2~postinstall: webpack-dev-server@3.7.2[0m[K[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m webpack-dev-server@3.7.2~postinstall: webpack-dev-server@3.7.2[0m[K[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m webpack-dev-server@3.7.2~postinstall: webpack-dev-server@3.7.2[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m webpack-dev-server@3.7.2~postinstall: webpack-dev-server@3.7.2[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m react-addons-css-transition-group@15.6.2 requires a peer of react@^15.4.2 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m react-workshop-project@1.0.0 No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m
++ react-addons-css-transition-group@15.6.2
+added 979 packages from 507 contributors and audited 13794 packages in 18.358s
+found 1 [95mcritical[0m severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ npm install react-addons-css-transition-group --savestart[K
+
+> react-workshop-project@1.0.0 start /home/cgeraldo/Documents/mercadoLibre/react-workshop
+> webpack-dev-server --mode development
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost:3000/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34mhttp://localhost:3000/dist/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m/home/cgeraldo/Documents/mercadoLibre/react-workshop/public/[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mbf9e32f2eecbb10fbe24[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m2547[39m[22mms
+Built at: 08/24/2019 [1m10:01:58 AM[39m[22m
+    [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  1.43 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 51 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m91009abc13bd08c00d02[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m219[39m[22mms
+Built at: 08/24/2019 [1m10:03:28 AM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32mbf9e32f2eecbb10fbe24.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                              [1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mmain.bf9e32f2eecbb10fbe24.hot-update.js[39m[22m  49.3 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m [1m[32mmain.bf9e32f2eecbb10fbe24.hot-update.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m91009abc13bd08c00d02[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m94[39m[22mms
+Built at: 08/24/2019 [1m10:03:31 AM[39m[22m
+    [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[39m[22mmain
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+^C
+]0;cgeraldo@cgeraldo: ~/Documents/mercadoLibre/react-workshop[01;32mcgeraldo@cgeraldo[00m:[01;34m~/Documents/mercadoLibre/react-workshop[00m$ npm start
+
+> react-workshop-project@1.0.0 start /home/cgeraldo/Documents/mercadoLibre/react-workshop
+> webpack-dev-server --mode development
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost:3000/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34mhttp://localhost:3000/dist/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m/home/cgeraldo/Documents/mercadoLibre/react-workshop/public/[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mbaadfd8e54fd365c3b04[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m1836[39m[22mms
+Built at: 08/24/2019 [1m10:03:51 AM[39m[22m
+    [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mf68dd5ad594a067e0b4b[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m228[39m[22mms
+Built at: 08/24/2019 [1m10:04:34 AM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32mbaadfd8e54fd365c3b04.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                              [1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mmain.baadfd8e54fd365c3b04.hot-update.js[39m[22m  7.05 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m [1m[32mmain.baadfd8e54fd365c3b04.hot-update.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mf68dd5ad594a067e0b4b[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m127[39m[22mms
+Built at: 08/24/2019 [1m10:04:41 AM[39m[22m
+    [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[39m[22mmain
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mf750ff15a7eb51a72c0c[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m43[39m[22mms
+Built at: 08/24/2019 [1m10:04:47 AM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                              [1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+   [1m[32mf68dd5ad594a067e0b4b.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mmain.f68dd5ad594a067e0b4b.hot-update.js[39m[22m  1.08 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m [1m[32mmain.f68dd5ad594a067e0b4b.hot-update.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m9306d60eaa773929818c[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m150[39m[22mms
+Built at: 08/24/2019 [1m10:09:22 AM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                              [1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+   [1m[32mf750ff15a7eb51a72c0c.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mmain.f750ff15a7eb51a72c0c.hot-update.js[39m[22m   7.3 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m [1m[32mmain.f750ff15a7eb51a72c0c.hot-update.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[31m✖[39m [90m｢wdm｣[39m: Hash: [1m5fe2db341290d77fbf31[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m52[39m[22mms
+Built at: 08/24/2019 [1m10:13:42 AM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32m9306d60eaa773929818c.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                              [1m[32mbundle.js[39m[22m  1.26 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mmain.9306d60eaa773929818c.hot-update.js[39m[22m  4.83 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m [1m[32mmain.9306d60eaa773929818c.hot-update.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 32 hidden modules
+
+[1m[31mERROR in ./src/App.js
+Module Error (from ./node_modules/eslint-loader/index.js):
+
+[4m/home/cgeraldo/Documents/mercadoLibre/react-workshop/src/App.js[24m
+  [2m33:4[22m  [31merror[39m  Parsing error: Unexpected token
+
+[0m [90m 31 | [39m      [36mthis[39m[33m.[39msetState({data[33m:[39m array})[33m;[39m[0m
+[0m [90m 32 | [39m    }[0m
+[0m[31m[1m>[22m[39m[90m 33 | [39m  }[33m,[39m[0m
+[0m [90m    | [39m   [31m[1m^[22m[39m[0m
+[0m [90m 34 | [39m[0m
+[0m [90m 35 | [39m  render() {[0m
+[0m [90m 36 | [39m    [36mconst[39m { name[33m,[39m data } [33m=[39m [36mthis[39m[33m.[39mstate[33m;[39m[0m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/index.js 3:0-24 4:36-39[39m[22m
+
+[1m[31mERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/cgeraldo/Documents/mercadoLibre/react-workshop/src/App.js: Unexpected token (33:3)
+
+[0m [90m 31 | [39m      [36mthis[39m[33m.[39msetState({data[33m:[39m array})[33m;[39m[0m
+[0m [90m 32 | [39m    }[0m
+[0m[31m[1m>[22m[39m[90m 33 | [39m  }[33m,[39m[0m
+[0m [90m    | [39m   [31m[1m^[22m[39m[0m
+[0m [90m 34 | [39m[0m
+[0m [90m 35 | [39m  render() {[0m
+[0m [90m 36 | [39m    [36mconst[39m { name[33m,[39m data } [33m=[39m [36mthis[39m[33m.[39mstate[33m;[39m[0m
+    at Object.raise (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:6325:17)
+    at Object.unexpected (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:7642:16)
+    at Object.parseIdentifierName (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:9521:18)
+    at Object.parseIdentifier (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:9499:23)
+    at Object.parseMaybePrivateName (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:8863:19)
+    at Object.parsePropertyName (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:9319:98)
+    at Object.parseClassPropertyName (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:10777:22)
+    at Object.parseClassMemberWithIsStatic (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:10698:22)
+    at Object.parseClassMember (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:10668:10)
+    at withTopicForbiddingContext (/home/cgeraldo/Documents/mercadoLibre/react-workshop/node_modules/@babel/parser/lib/index.js:10623:14)
+ @ ./src/index.js 3:0-24 4:36-39[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mf2178b2272bba13c9bf8[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m355[39m[22mms
+Built at: 08/24/2019 [1m10:13:45 AM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32m5fe2db341290d77fbf31.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                              [1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mmain.5fe2db341290d77fbf31.hot-update.js[39m[22m   220 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m [1m[32mmain.5fe2db341290d77fbf31.hot-update.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.77 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.63 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/emitter.js] [1m(webpack)/hot/emitter.js[39m[22m 75 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack/hot/only-dev-server.js] [1m(webpack)/hot/only-dev-server.js[39m[22m 2.52 KiB {[1m[33mmain[39m[22m}
+[[1m./src/index.js[39m[22m] 167 bytes {[1m[33mmain[39m[22m}
+    + 66 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mf2178b2272bba13c9bf8[39m[22m
+Version: webpack [1m4.35.3[39m[22m
+Time: [1m168[39m[22mms
+Built at: 08/24/2019 [1m10:35:27 AM[39m[22m
+    [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbundle.js[39m[22m  1.48 MiB    [1mmain[39m[22m  [1m[32m[39m[22mmain
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3000 (webpack)/hot/only-dev-server.js ./src/index.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}
+[[1m./node_modules/react-dom/index.js[39m[22m] 1.33 KiB {[1m[33mmain[39m[22m}
+[[1m./node_modules/react/index.js[39m[22m] 190 bytes {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3000] [1m(webpack)-dev-server/client?http://localhost:3000[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2
