@@ -1,15 +1,28 @@
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader';
-import './App.scss';
+
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      isActive: false
+    }
+  }
+
+  handleClick() {
+    this.setState({ isActive: !this.state.isActive })
+  }
+
   render() {
     return (
       <div className="App">
-        <h1> Hello, World! </h1>
+        <button onClick={this.handleClick}>
+          {this.state.isActive ? "Show" : "Hide"}
+        </button>
       </div>
     );
   }
 }
 
-export default hot(module)(App);
+export default App;
